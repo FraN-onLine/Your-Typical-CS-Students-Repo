@@ -1,4 +1,4 @@
-#Write a MIPS program that allocates an nÃ—n array of integers on the heap, where n is a user 
+#Write a MIPS program that allocates an n×n array of integers on the heap, where n is a user 
 #input. The program should compute and print the value of each element as follows: 
 #for (i=0; i<n; i++) 
 #for (j=0; j<n; j++) { 
@@ -41,7 +41,7 @@ main:
     
 fori:
 	forj:
-	#$t2 + ($t3Ã—$t0 + $t4) Ã— 4
+	#$t2 + ($t3×$t0 + $t4) × 4
 	#a[i][j]
 	mul $t5, $t3, $t0 #i*n
 	add $t5, $t5, $t4 #i*n+j
@@ -99,6 +99,11 @@ syscall
 addi $t3, $t3, 1
 li $t4, 0 #reset j to 0
 blt $t3, $t0, fori
+
+
+
+
+
 
 
 

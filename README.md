@@ -5,3 +5,4 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC121 Digital Design  
 - CMPSC122 Computer Org and Assembly
 - CMPSC134 Discrete Structures 
+- CMPSC172 Data Mining

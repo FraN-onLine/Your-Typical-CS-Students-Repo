@@ -82,7 +82,7 @@ while ($row = $result->fetch_assoc()) {
                 <?php if ($task['taskstatus']){ ?>
                 <a href="?toggle=<?= $task['id'] ?>">Mark as Done</a>
                 <?php } else { ?>
-                <p> done </p>
+                <p> Marked as Done </p>
                 <?php } ?>
                 </td>
 

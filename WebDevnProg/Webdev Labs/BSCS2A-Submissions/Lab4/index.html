@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="styles.css" rel="stylesheet">
+    <script>
+    var index = 1;
+        
+        function addTask(){
+
+            let target = document.getElementById("tasksection");
+            let task = document.getElementById("taskItem").value;
+            if (task.length < 2){
+                alert("Task should be longer than 2 letters (e.g. die)");
+                return;
+            }
+
+            document.getElementById("taskItem").value = "";
+            let newTask = document.createElement('div');
+            newTask.classList = "tasks";
+
+            let taskcontent = document.createElement('p');
+            taskcontent.textContent = index +". "+ task;
+            newTask.append(taskcontent);
+            let removeButton = document.createElement('button');
+            removeButton.textContent = "Delete";
+            removeButton.classList = 'removebutton';
+            
+            removeButton.addEventListener("click", function () {
+                let response = confirm("Bye Bye Senpai uwu");
+                if (response === true)
+                target.removeChild(newTask);
+            } );
+            newTask.append(removeButton);
+            target.append(newTask);
+            index++;
+        }
+    </script>
+</head>
+<body>
+    <div class = "main">
+    <div class="tasklist">
+        <h1 class="header" style="display: block;">TO DO LIST</h1>
+        <p>Tasks:</p>
+        <div class="tasksection" id="tasksection"></div>
+        <input type="text" id="taskItem" class="taskitem" placeholder="Add a New Task">
+        <button class="submit" onclick="addTask()">Submit</button>
+    </div>
+    </div>
+</body>
+</html>

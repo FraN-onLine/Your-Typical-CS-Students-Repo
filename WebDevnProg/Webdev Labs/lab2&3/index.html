@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link href="styles.css" rel="stylesheet">
+	<script>
+		function displayContent() {
+		var date = document.getElementById("date").value;
+		var feeling = document.getElementById("feeling").value;
+		var entry = document.getElementById("entry").value;
+		var message = "Log Date: " + date + "<br>---------------------<br>Feeling: " + feeling + "<br>Entry: " + entry + "<br>---------------------<br>Expires when you submit again<br>Best when not refreshed" ;
+		document.getElementById("output").innerHTML = message;
+		return false;
+		}
+	</script>
+
+	</head>
+	<body>
+		<h1> DIARY NG MAMA MONG NANALO NG WASHING MACHINE</h1>        
+        <div class="formseg">
+		<form onsubmit="return displayContent()">
+			<label for="date">Date:</label>
+			<input type="date" id="date" name="date" required><br><br>
+
+			<label for="feeling">How are you feeling:</label>
+			<input type="text" id="feeling" name ="feeling" required placeholder="Ya mad bro?"><br><br>
+
+			<label for="entry">Diary Content:</label><br>
+			<input class="entry" type="text" id="entry" name ="entry" placeholder="Enter details of your pitiful life" required><br><br>
+
+			<input class="submit" type="submit" value="Submit">
+		</form>
+    </div>
+        <div class="diaryseg">
+		    <h2 class=>Diary Entry</h2>
+        </div>
+        <div class="diaryseg">
+		    <p id="output" class="output"> This is where your details go<br>Try entering info</p>
+        </div>
+        <br><br><br><br>
+        
+	</body>
+</html>

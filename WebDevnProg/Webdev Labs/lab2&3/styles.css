@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(rgb(243, 243, 229), rgb(216, 169, 115) );
+    /* background-color: rgb(243, 243, 229); */
+}
+
+.submit {
+    background-color: rgb(133, 79, 8);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 36px;
+    width: 105px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.submit:hover{
+    background-color: rgb(104, 87, 33);
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px black;
+}
+
+.submit:active{
+    background-color: rgb(252, 185, 109);
+}
+
+#date {
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+#feeling {
+    vertical-align: top;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.entry {
+    height: 175px;
+    width: 350px;
+    vertical-align: top;
+    border-radius: 15px;
+    background-color: aliceblue;
+}
+
+.diaryseg {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8rem;
+    display: flex;
+    background-color: rgba(177, 157, 104, 0.801);
+    color: rgba(255, 253, 240, 0.795);
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.output {
+    border-radius: 15px;
+    border: 2.4px solid;
+    border-color: black;
+    padding: 20px 50px;
+    display: block;
+    height: 350px;
+    width: 250px;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.formseg {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 1200px){ 
+.formseg {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+}

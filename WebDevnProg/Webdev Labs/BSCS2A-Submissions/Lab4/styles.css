@@ -1,0 +1,75 @@
+h1 {
+    justify-self: flex-start;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit {
+    background-color: rgb(132, 153, 184);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 36px;
+    width: 105px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.submit:hover{
+    background-color: rgb(104, 58, 98);
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px black;
+}
+
+.submit:active{
+    background-color: rgb(252, 185, 109);
+}
+
+.removebutton {
+    margin-left: 20px;
+    background-color: rgb(75, 136, 185);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 36px;
+    width: 105px;
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.removebutton:hover{
+    background-color: rgb(135, 60, 150);
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px black;
+}
+
+.removebutton:active{
+    background-color: rgb(88, 25, 64);
+}
+
+.tasks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tasksection {
+    border-radius: 15px;
+    border: 2.4px solid;
+    border-color: black;
+    padding: 20px 50px;
+    display: block;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+}
+
+.formseg {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

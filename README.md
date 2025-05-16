@@ -6,3 +6,5 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC122 Computer Org and Assembly
 - CMPSC134 Discrete Structures 
 - CMPSC172 Data Mining
+
+cge lang mangopya lang kayo 

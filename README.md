@@ -1,4 +1,5 @@
-# Welcome to my world~
+# Welcome to my world~  
+
 Repository for all Laboraties, Excluding Machine Problems and Final Project for CS  
 
 ## CS2  
@@ -10,6 +11,8 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC134 Discrete Structures 
 - CMPSC172 Data Mining  
 
-# CS3
-- CMPSC162 Artificial Intelligence 
+## CS3
+- CMPSC162 Artificial Intelligence
+
+    
 cge lang mangopya lang kayo 

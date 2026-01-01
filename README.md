@@ -2,6 +2,10 @@
 
 Repository for all Laboraties, Excluding Machine Problems and Final Project for CS  
 
+## CS1  
+- CMPSC101 and CMPSC 102 ComProg 1 and 2  
+- CMPSC103 Object Oriented Programming  
+  
 ## CS2  
 
 - CMPSC116 Database Systems

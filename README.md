@@ -18,7 +18,8 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 
 ## CS3
 - CMPSC162 Artificial Intelligence
-- [Walang Code outputs ung rest, sadge]
+- CMPSC147 Information Assurance and Security
+- CMPSC146 Software Engineering  
 
     
 cge lang mangopya lang kayo 

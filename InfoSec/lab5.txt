@@ -1,0 +1,7 @@
+
+Basilio_Francisco F. 
+PrintNightmare RCE (CVE-2021-1675)
+
+The exploit abuses the Print Spooler in Windows to load malicious DLL files. this exploit is being used as a Remote Code Execution vulnerability, It allows attackers to remotely execute code on affected systems, compromising a system.
+
+The setup environment to be used is a Kali Linux VM attacking a Windows server while on the same network, the windows system having print spooler enabled and the tool impacket installed on the linux system.

@@ -25,3 +25,6 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 
     
 cge lang mangopya lang kayo 
+
+
+HUUUUUUU Di ko nasave distri lab ko, ganda pa nun  

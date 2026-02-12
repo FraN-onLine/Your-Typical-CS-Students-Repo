@@ -22,7 +22,7 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC147 Information Assurance and Security
 - CMPSC146 Software Engineering
 - CMPSCEWAN Distributed Systems  
-
+- CMPSCYAKYAKYAK Operations Research
     
 cge lang mangopya lang kayo 
 

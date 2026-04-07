@@ -17,11 +17,11 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC172 Data Mining  
 
 ## CS3
-- CMPSCWalaakongpake Computer Networks  
+- CMPSC Computer Networks  
 - CMPSC162 Artificial Intelligence
 - CMPSC147 Information Assurance and Security
 - CMPSC146 Software Engineering
-- CMPSCEWAN Distributed Systems  
-- CMPSCYAKYAKYAK Operations Research
+- CMPSC Distributed Systems  
+- CMPSC Operations Research
     
 cge lang mangopya lang kayo 

@@ -20,7 +20,6 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC Computer Networks  
 - CMPSC162 Artificial Intelligence
 - CMPSC147 Information Assurance and Security
-- CMPSC146 Software Engineering
 - CMPSC Distributed Systems  
 - CMPSC Operations Research
     

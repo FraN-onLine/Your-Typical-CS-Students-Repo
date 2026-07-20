@@ -22,5 +22,7 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC147 Information Assurance and Security
 - CMPSC Distributed Systems  
 - CMPSC Operations Research
-    
+
+## CS4  
+- CMPSC Programming Languages
 cge lang mangopya lang kayo 

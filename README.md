@@ -24,5 +24,5 @@ Repository for all Laboraties, Excluding Machine Problems and Final Project for 
 - CMPSC Operations Research
 
 ## CS4  
-- CMPSC Programming Languages
+- CMPSC Programming Languages  
 cge lang mangopya lang kayo 
